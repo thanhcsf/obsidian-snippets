@@ -1,0 +1,44 @@
+:root{
+ /*----------------------------------------------------------------
+  Font styles
+  Preview mode and UI */
+
+  --default-font: Inter, sans-serif;
+  /* Editor mode */
+
+  --text-editor: JetBrains Mono, sans-serif;
+  /* Code */
+
+  --font-monospace: JetBrains Mono, monospace;
+  /* Sizes, weights, padding */
+
+  
+}
+
+body { /*Text body*/
+  font-family: var(--default-font);
+}
+
+text{
+  font-family: var(--default-font);
+}
+
+.markdown-preview-view blockquote {
+  font-family: var(--default-font);
+}
+
+.markdown-source-view {  /*Editor Mode*/
+  font-family: var(--text-editor);
+}
+
+.markdown-preview-view code {
+  font-family: var(--font-monospace);
+}
+
+ /* Code blocks */
+  /* Inline code */
+
+code[class*="language-"],
+pre[class*="language-"] {
+  font-family: var(--font-monospace);
+}
